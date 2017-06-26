@@ -1,0 +1,54 @@
+{
+  "name": "kh-squared-ria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "lite-server",
+    "build": "gulp build",
+    "prod": "gulp prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-akins/kh-squared-ria.git"
+  },
+  "keywords": [],
+  "author": "Kevin Akins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevin-akins/kh-squared-ria/issues"
+  },
+  "homepage": "https://github.com/kevin-akins/kh-squared-ria#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "bootstrap-sass": "^3.3.7",
+    "browser-sync": "^2.18.12",
+    "del": "^3.0.0",
+    "ejs": "^2.5.6",
+    "glob": "^7.1.2",
+    "glob-stream": "^6.1.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-ejs": "^3.0.1",
+    "gulp-image-resize": "^0.12.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-live-server": "0.0.30",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-uglify": "^3.0.0",
+    "gulp-uglify-cli": "^0.1.7",
+    "gulp-util": "^3.0.8",
+    "imagemin-jpegtran": "^5.0.2",
+    "imagemin-pngquant": "^5.0.1",
+    "jquery": "^3.2.1",
+    "jshint": "^2.9.5",
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "imagemin": "^5.3.1"
+  }
+}
